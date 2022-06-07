@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1207</width>
+    <height>895</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tb_Lancamento">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>1181</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>120</number>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderStretchLastSection">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Código</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Data Transação</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Descrição</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Banco</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tipo Pagamento</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Classe</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Grupo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Subgrupo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Entrada </string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Saída</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="btnCadastro_banco">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CADASTRO DE BANCO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCadastro_classe">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CADASTRO DE CLASSES</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCadastro_pagamento">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>CADASTRO TIPO PAGAMENTO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCadastro_usuario">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>CADASTRO DE USUÁRIO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnImportar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>IMPORTAR PLANILHA</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLancamento">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>LANÇAMENTOS </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="edtConsultar">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>230</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnConsultar">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>230</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>btnPesquisar.png</normaloff>btnPesquisar.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnRelatorios">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>160</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>RELATÓRIOS</string>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="calendarWidget">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>10</y>
+      <width>312</width>
+      <height>183</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSair">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>810</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Sair</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnExportar">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>110</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>EXPORTAR PLANILHA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="totalEntrada">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>710</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Total entrada</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1207</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

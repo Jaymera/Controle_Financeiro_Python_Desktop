@@ -1,0 +1,9 @@
+- mascara de moeda vai ter que apagar todos os caracteres especiais do edit para não ter problema de salvar no formato do brasil
+e mandar a pessoa digitar no place o formato certo
+
+- pegar a coluna certo da table:
+    for item in tela_2.tableWidget.selectedItems():
+        if item.column() == 0: 
+            print(item.text())
+
+- arrumar a senha no login - echoMode
